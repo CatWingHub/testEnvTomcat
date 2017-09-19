@@ -8,5 +8,6 @@ RUN ln -snf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo 'Asia/Shang
 
 ENV BAK_DIR /usr/local/bakdata
 ENV BASE_DIR /usr/local/data
+ENV LOG_PATH /usr/local/log
 
 CMD ["catalina.sh", "run"]
